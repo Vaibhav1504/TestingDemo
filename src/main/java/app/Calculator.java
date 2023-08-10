@@ -14,7 +14,7 @@ public class Calculator {
 	}
 	public int add(int...num)
 	{
-		int sum=0;
+		int sum=0,k;
 		for(int i=0;i<num.length;i++)
 		{
 			sum+=num[i];			
